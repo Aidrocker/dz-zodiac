@@ -1,0 +1,33 @@
+{
+  "name": "train5",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "server": "live-server src",
+    "test": "jest"
+  },
+  "babel": {
+    "presets": [[
+        "@babel/preset-env",
+        {
+          "useBuiltIns": "usage",
+          "corejs": 3
+        }
+      ]]
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-jest": "^24.9.0",
+    "jest": "^24.9.0",
+    "live-server": "^1.2.1"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.4.4",
+    "core-js": "^3.2.1"
+  },
+  "description": ""
+}
